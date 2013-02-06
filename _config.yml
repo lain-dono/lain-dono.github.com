@@ -1,0 +1,5 @@
+#auto: true
+#server: true
+permalink: /docs/:categories/:title
+#pygments: true
+google_analytics_id: UA-38298848-1

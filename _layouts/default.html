@@ -1,11 +1,15 @@
 {% include top.html %}
 <body>
-  {% include header.html %}
+<div class="wraper">
 
-  {{ content }}
+{% include header.html %}
 
-  {% include footer.html %}
-  {% include analytics.html %}
+{{ content }}
+
+{% include footer.html %}
+
+</div>
+{% include analytics.html %}
 
 </body>
 </html>
